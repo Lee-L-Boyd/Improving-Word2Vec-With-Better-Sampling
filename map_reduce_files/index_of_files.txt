@@ -1,0 +1,11 @@
+1a. mapper.py - simple mapper used to count the number of tokens in a file and a output their counts
+1b. reducer.py - simple combiner and reducer used with the word count mapper 
+
+2. mapper_wiki_tokenizer.py - used to process the wiki files to do all the preprocessing steps and output one line per article
+DEPENDENCIES
+	1. It requires the wikipedia xml, preparsed, such that each line ends in a </text> tag and the beginning started where the text tag began; this was the pattern where articles were identified in the wikipedia xml files
+	2. It requires NLTK be configured 
+	3. It requires the guess_language library
+
+3. reducer_wiki.py - a reducer that counts all words instead of grouping same words. 
+

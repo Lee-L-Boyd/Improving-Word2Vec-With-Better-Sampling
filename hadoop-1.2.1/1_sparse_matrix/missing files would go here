@@ -1,0 +1,1 @@
+In this directory there would be a number of files containing statistics and embeddings derived from the various sampling methods used to try to improve the sampling approach in w2v (53 GB), but they have been removed so that the project can more efficiently fit on Github
